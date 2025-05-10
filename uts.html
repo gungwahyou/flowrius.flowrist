@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Bunga Elegan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="tampilan.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- Navbar -->
+<header class="fixed top-0 w-full bg-white z-50 shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+    <!-- Logo dan Nama -->
+    <div class="flex items-center space-x-0">
+      <img src="Flowrius1.png" alt="Logo Flowrius" class="h-9 w-auto" />
+      <h1 class="text-2xl font-semibold tracking-wide">Flowrius</h1>
+    </div>
+    
+    <!-- Navigasi -->
+    <nav class="space-x-6 text-sm font-medium">
+      <a href="#produk" class="hover:text-gray-500">Produk</a>
+      <a href="#tentang" class="hover:text-gray-500">Tentang</a>
+      <a href="#kontak" class="hover:text-gray-500">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+
+ <!-- Hero Section -->
+<section class="relative h-screen bg-cover bg-center" style="background-image: url('page1.jpg');">
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-white px-4">
+
+    <!-- Logo di Tengah -->
+    <div class="size">
+      <img src="Flowriuss.png" alt="Logo Flowrius" class="h-28 w-auto mx-auto rounded-full shadow-lg">
+    </div>
+
+    <!-- Teks utama -->
+    <div class="text-center">
+      <h2 class="text-4xl md:text-6xl font-bold mb-6">Selamat datang di Flowrius, tempat di mana setiap hadiah bercerita.</h2>
+      <p class="text-lg mb-6">Rangkaian hadiah premium untuk setiap momen spesial Anda</p>
+      <a href="#produk" class="inline-block bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition">Lihat Koleksi</a>
+    </div>
+
+  </div>
+</section>
+
+  <br><br>
+  
+  <!-- Produk -->
+<section id="produk" class="py-24 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold text-center mb-12">Koleksi Terbaik Kami</h3>
+  
+      <!-- Ubah ke 4 kolom -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        
+        <!-- Produk Item -->
+        <div class="flex flex-col bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img src="hampers.jpg" alt="Bouquet" class="w-full h-48 object-cover">
+          <div class="p-4 flex-grow flex flex-col justify-between">
+            <h4 class="text-lg font-semibold mb-2">Hampers</h4>
+            <span class="text-base font-bold">Rp 80.000</span>
+            <p class="text-sm text-gray-600 mt-2">Paket hadiah elegan berisi pilihan produk premium untuk setiap momen spesial.</p>
+          </div>
+        </div>
+  
+        <div class="flex flex-col bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img src="gif box.jpg" alt="Tulips" class="w-full h-48 object-cover">
+          <div class="p-4 flex-grow flex flex-col justify-between">
+            <h4 class="text-lg font-semibold mb-2">Gift Box</h4>
+            <span class="text-base font-bold">Rp 90.000</span>
+            <p class="text-sm text-gray-600 mt-2">Kotak hadiah eksklusif dengan detail personal, cocok untuk ulang tahun atau anniversary.</p>
+          </div>
+        </div>
+  
+        <div class="flex flex-col bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img src="custom love.jpg" alt="Sunflower" class="w-full h-48 object-cover">
+          <div class="p-4 flex-grow flex flex-col justify-between">
+            <h4 class="text-lg font-semibold mb-2">Custom Love</h4>
+            <span class="text-base font-bold">Rp 100.000</span>
+            <p class="text-sm text-gray-600 mt-2">Hadiah yang dapat dipersonalisasi sesuai keinginan Anda, untuk menunjukkan kasih dengan cara unik.</p>
+
+
+          </div>
+        </div>
+  
+        <div class="flex flex-col bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img src="foto3D.jpg" alt="Foto 3D" class="w-full h-48 object-cover">
+          <div class="p-4 flex-grow flex flex-col justify-between">
+            <h4 class="text-lg font-semibold mb-2">Foto 3D</h4>
+            <span class="text-base font-bold">Rp 120.000</span>
+            <p class="text-sm text-gray-600 mt-2">Cetakan foto kenangan dalam bentuk 3D yang memberikan kesan mendalam dan tak terlupakan.</p>
+
+
+          </div>
+        </div>
+  
+      </div>
+    </div>
+   <!-- Video Promosi -->
+<div class="mt-16">
+  <h3 class="text-2xl font-semibold text-center mb-6">Video Item</h3>
+  <div class="flex justify-center">
+    <div class="w-full max-w-4xl aspect-video rounded-lg overflow-hidden shadow-lg">
+      <video controls class="w-full h-full object-cover">
+        <source src="floristvidio1.mp4" type="video/mp4">
+        Browser Anda tidak mendukung tag video.
+      </video>
+    </div>
+  </div>
+</div>
+
+
+  </section>
+  
+  <section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Gambar di kiri -->
+    <div>
+      <img src="hampers.jpg" alt="Fresh Flowers" class="rounded-xl shadow-lg w-full object-cover">
+    </div>
+
+    <!-- Teks Deskripsi -->
+    <div>
+      <p class="text-sm text-gray-500 mb-2">Starts from IDR 30.000</p>
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">🎁 Hampers Flowrius – Sebuah Cerita dalam Setiap Bingkisan</h2>
+      <p class="text-gray-600 text-base">Hampers dari Flowrius bukan sekadar hadiah — ia adalah simbol cinta, perhatian, dan kehangatan yang terbungkus indah dalam setiap detail. Dirancang dengan cita rasa tinggi, setiap elemen dalam hampers kami dipilih secara saksama untuk menciptakan kesan tak terlupakan bagi siapa pun yang menerimanya.
+
+Di balik kemasannya yang mewah, Anda akan menemukan perpaduan elegan antara produk berkualitas, ornamen dekoratif yang manis, dan pesan personal yang menyentuh hati. Baik untuk ulang tahun, anniversary, Hari Ibu, wisuda, atau sekadar ingin mengucapkan terima kasih — hampers ini hadir sebagai cara anggun untuk menyampaikan perasaan Anda.
+
+💐 Kenapa memilih Hampers Flowrius?
+
+Dikurasi secara eksklusif dengan elemen dekorasi aesthetic dan sentuhan personal
+
+Tersedia dalam berbagai tema: romantis, klasik, minimalis, hingga rustic
+
+Bisa disesuaikan dengan kartu ucapan khusus, nama penerima, dan pilihan warna
+
+Karena setiap momen layak dirayakan dengan keindahan dan ketulusan.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Deskripsi Produk (Gambar Kanan) -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Deskripsi di Kiri -->
+    <div class="text-left">
+      <p class="text-sm text-gray-500 mb-2">Mulai dari Rp 40.000</p>
+      <h3 class="text-3xl font-semibold mb-4">🎁 Flowrius Gift Box – Mini Surprise, Maximum Love 🎁</h3>
+      <p class="text-lg text-gray-600">Bukan sekadar kado, ini adalah bentuk perhatian dalam kemasan manis. Gift box dari Flowrius dirancang khusus untuk kamu yang ingin memberikan kejutan kecil tapi berkesan. Dengan sentuhan estetik dan vibe yang cheerful, setiap kotaknya membawa kebahagiaan yang nggak bisa diukur.
+
+Pas banget buat kamu yang suka hal-hal lucu, personal, dan heartfelt. Mau kasih ke sahabat, pasangan, atau diri sendiri? Semua pasti senyum saat menerimanya. Karena di Flowrius, we believe—the little things matter the most. 💖</p>
+    </div>
+    
+    <!-- Gambar di Kanan -->
+    <div class="w-full">
+      <img src="gif box.jpg" alt="Fresh Flower" class="rounded-xl shadow-lg w-full object-cover">
+    </div>
+
+  </div>
+</section>
+
+</section>
+  
+  <section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Gambar di kiri -->
+    <div>
+      <img src="custom love1.jpg" alt="Fresh Flowers" class="rounded-xl shadow-lg w-full object-cover">
+    </div>
+
+    <!-- Teks Deskripsi -->
+    <div>
+      <p class="text-sm text-gray-500 mb-2">Starts from IDR 30.000</p>
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">🍓 Flowrius Custom Love – Sweet Gesture, Sweeter Feeling 🍓</h2>
+      <p class="text-gray-600 text-base">Custom Love dari Flowrius adalah cara baru untuk bilang “aku sayang kamu” dengan gaya yang unik, lucu, dan pastinya manis. Dipersonalisasi sesuai momen dan perasaanmu, ditambah sentuhan Pocky Strawberry yang ikonik dan estetik — siapa pun yang nerima pasti jatuh cinta dua kali! 💕
+<br>
+✨ Cocok buat:
+<br>
+• Hadiah gebetan atau pacar
+<br>
+• Ulang tahun sahabat
+<br>
+• Kado random biar hari mereka makin manis
+
+Karena cinta nggak perlu mewah, cukup tulus… dan ada Pocky 😋💌</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Deskripsi Produk (Gambar Kanan) -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Deskripsi di Kiri -->
+    <div class="text-left">
+      <p class="text-sm text-gray-500 mb-2">Mulai dari Rp 50.000</p>
+      <h3 class="text-3xl font-semibold mb-4">✨ Flowrius 3D Photo Box – Memori yang Nggak Cuma Disimpan, Tapi Dirayakan ✨</h3>
+      <p class="text-lg text-gray-600">Bukan cuma sekadar kotak, ini adalah ruang penuh cerita yang hidup kembali dalam bentuk 3D. Dengan lampu-lampu hangat dan susunan foto yang personal, Foto Box 3D dari Flowrius bikin setiap momen terasa lebih spesial dan berkesan.
+
+Cocok banget untuk hadiah ulang tahun, anniversary, atau kejutan manis buat orang tersayang. Estetik, personal, dan pastinya bikin senyum saat dibuka. Karena setiap detik bersama mereka layak dirayakan dengan cara yang nggak biasa 💛
+<br>
+💡 Warning: bikin baper & kangen berat!</p>
+    </div>
+    
+    <!-- Gambar di Kanan -->
+    <div class="w-full">
+      <img src="foto3D.jpg" alt="Fresh Flower" class="rounded-xl shadow-lg w-full object-cover">
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Tentang -->
+  <section id="tentang" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h3 class="text-3xl font-semibold mb-6">Tentang Flowrius</h3>
+      <p class="text-lg text-gray-700">"Memberi bukan sekadar kebiasaan — tapi bahasa cinta yang tak terucap."
+
+        Di Flowrius, kami percaya bahwa hadiah adalah cara sederhana namun kuat untuk menunjukkan perhatian, merawat hubungan, dan menciptakan kenangan. Setiap produk yang kami hadirkan bukan hanya barang, tetapi simbol perasaan: kasih sayang, syukur, dukungan, dan kebahagiaan.
+        
+        Kami terinspirasi oleh keindahan momen kecil yang sering terlupakan — senyum yang muncul saat membuka kotak hadiah, tatapan haru saat melihat foto kenangan dalam bentuk 3D, atau kehangatan yang terasa dari isi hampers pilihan.</p>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="bg-gray-100 py-20">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h3 class="text-3xl font-semibold mb-6">Hubungi Kami</h3>
+      <p class="mb-2">📧 Email: <a href="mailto:@flowriusbali.com" class="text-blue-600 hover:underline">@flowriusbali.com</a></p>
+      <p> WhatsApp: <a href="https://wa.me/6281234567890" class="text-blue-600 hover:underline">+62 812-3456-7890</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t text-center py-6 text-sm text-gray-500">
+    &copy; 2025 Flowrius Semua Hak Dilindungi.
+  </footer>
+</body>
+</html>
